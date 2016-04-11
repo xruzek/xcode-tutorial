@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD11DB221CBB250F0020796A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11DB211CBB250F0020796A /* AppDelegate.swift */; };
+		CD11DB241CBB250F0020796A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11DB231CBB250F0020796A /* ViewController.swift */; };
+		CD11DB271CBB250F0020796A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD11DB251CBB250F0020796A /* Main.storyboard */; };
+		CD11DB291CBB250F0020796A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD11DB281CBB250F0020796A /* Assets.xcassets */; };
+		CD11DB2C1CBB250F0020796A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD11DB2A1CBB250F0020796A /* LaunchScreen.storyboard */; };
+		CD11DB371CBB250F0020796A /* linking_to_get_hubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11DB361CBB250F0020796A /* linking_to_get_hubTests.swift */; };
+		CD11DB421CBB250F0020796A /* linking_to_get_hubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11DB411CBB250F0020796A /* linking_to_get_hubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD11DB331CBB250F0020796A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD11DB161CBB250F0020796A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD11DB1D1CBB250F0020796A;
+			remoteInfo = "linking to get hub";
+		};
+		CD11DB3E1CBB250F0020796A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD11DB161CBB250F0020796A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD11DB1D1CBB250F0020796A;
+			remoteInfo = "linking to get hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD11DB1E1CBB250F0020796A /* linking to get hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "linking to get hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11DB211CBB250F0020796A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD11DB231CBB250F0020796A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD11DB261CBB250F0020796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD11DB281CBB250F0020796A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD11DB2B1CBB250F0020796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD11DB2D1CBB250F0020796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD11DB321CBB250F0020796A /* linking to get hubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "linking to get hubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11DB361CBB250F0020796A /* linking_to_get_hubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linking_to_get_hubTests.swift; sourceTree = "<group>"; };
+		CD11DB381CBB250F0020796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD11DB3D1CBB250F0020796A /* linking to get hubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "linking to get hubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD11DB411CBB250F0020796A /* linking_to_get_hubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linking_to_get_hubUITests.swift; sourceTree = "<group>"; };
+		CD11DB431CBB250F0020796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD11DB1B1CBB250F0020796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB2F1CBB250F0020796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB3A1CBB250F0020796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD11DB151CBB250F0020796A = {
+			isa = PBXGroup;
+			children = (
+				CD11DB201CBB250F0020796A /* linking to get hub */,
+				CD11DB351CBB250F0020796A /* linking to get hubTests */,
+				CD11DB401CBB250F0020796A /* linking to get hubUITests */,
+				CD11DB1F1CBB250F0020796A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD11DB1F1CBB250F0020796A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD11DB1E1CBB250F0020796A /* linking to get hub.app */,
+				CD11DB321CBB250F0020796A /* linking to get hubTests.xctest */,
+				CD11DB3D1CBB250F0020796A /* linking to get hubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD11DB201CBB250F0020796A /* linking to get hub */ = {
+			isa = PBXGroup;
+			children = (
+				CD11DB211CBB250F0020796A /* AppDelegate.swift */,
+				CD11DB231CBB250F0020796A /* ViewController.swift */,
+				CD11DB251CBB250F0020796A /* Main.storyboard */,
+				CD11DB281CBB250F0020796A /* Assets.xcassets */,
+				CD11DB2A1CBB250F0020796A /* LaunchScreen.storyboard */,
+				CD11DB2D1CBB250F0020796A /* Info.plist */,
+			);
+			path = "linking to get hub";
+			sourceTree = "<group>";
+		};
+		CD11DB351CBB250F0020796A /* linking to get hubTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD11DB361CBB250F0020796A /* linking_to_get_hubTests.swift */,
+				CD11DB381CBB250F0020796A /* Info.plist */,
+			);
+			path = "linking to get hubTests";
+			sourceTree = "<group>";
+		};
+		CD11DB401CBB250F0020796A /* linking to get hubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD11DB411CBB250F0020796A /* linking_to_get_hubUITests.swift */,
+				CD11DB431CBB250F0020796A /* Info.plist */,
+			);
+			path = "linking to get hubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD11DB1D1CBB250F0020796A /* linking to get hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11DB461CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hub" */;
+			buildPhases = (
+				CD11DB1A1CBB250F0020796A /* Sources */,
+				CD11DB1B1CBB250F0020796A /* Frameworks */,
+				CD11DB1C1CBB250F0020796A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linking to get hub";
+			productName = "linking to get hub";
+			productReference = CD11DB1E1CBB250F0020796A /* linking to get hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD11DB311CBB250F0020796A /* linking to get hubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11DB491CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hubTests" */;
+			buildPhases = (
+				CD11DB2E1CBB250F0020796A /* Sources */,
+				CD11DB2F1CBB250F0020796A /* Frameworks */,
+				CD11DB301CBB250F0020796A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD11DB341CBB250F0020796A /* PBXTargetDependency */,
+			);
+			name = "linking to get hubTests";
+			productName = "linking to get hubTests";
+			productReference = CD11DB321CBB250F0020796A /* linking to get hubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD11DB3C1CBB250F0020796A /* linking to get hubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD11DB4C1CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hubUITests" */;
+			buildPhases = (
+				CD11DB391CBB250F0020796A /* Sources */,
+				CD11DB3A1CBB250F0020796A /* Frameworks */,
+				CD11DB3B1CBB250F0020796A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD11DB3F1CBB250F0020796A /* PBXTargetDependency */,
+			);
+			name = "linking to get hubUITests";
+			productName = "linking to get hubUITests";
+			productReference = CD11DB3D1CBB250F0020796A /* linking to get hubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD11DB161CBB250F0020796A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Rex;
+				TargetAttributes = {
+					CD11DB1D1CBB250F0020796A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD11DB311CBB250F0020796A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD11DB1D1CBB250F0020796A;
+					};
+					CD11DB3C1CBB250F0020796A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD11DB1D1CBB250F0020796A;
+					};
+				};
+			};
+			buildConfigurationList = CD11DB191CBB250F0020796A /* Build configuration list for PBXProject "linking to get hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD11DB151CBB250F0020796A;
+			productRefGroup = CD11DB1F1CBB250F0020796A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD11DB1D1CBB250F0020796A /* linking to get hub */,
+				CD11DB311CBB250F0020796A /* linking to get hubTests */,
+				CD11DB3C1CBB250F0020796A /* linking to get hubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD11DB1C1CBB250F0020796A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11DB2C1CBB250F0020796A /* LaunchScreen.storyboard in Resources */,
+				CD11DB291CBB250F0020796A /* Assets.xcassets in Resources */,
+				CD11DB271CBB250F0020796A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB301CBB250F0020796A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB3B1CBB250F0020796A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD11DB1A1CBB250F0020796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11DB241CBB250F0020796A /* ViewController.swift in Sources */,
+				CD11DB221CBB250F0020796A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB2E1CBB250F0020796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11DB371CBB250F0020796A /* linking_to_get_hubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD11DB391CBB250F0020796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11DB421CBB250F0020796A /* linking_to_get_hubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD11DB341CBB250F0020796A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD11DB1D1CBB250F0020796A /* linking to get hub */;
+			targetProxy = CD11DB331CBB250F0020796A /* PBXContainerItemProxy */;
+		};
+		CD11DB3F1CBB250F0020796A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD11DB1D1CBB250F0020796A /* linking to get hub */;
+			targetProxy = CD11DB3E1CBB250F0020796A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD11DB251CBB250F0020796A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD11DB261CBB250F0020796A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD11DB2A1CBB250F0020796A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD11DB2B1CBB250F0020796A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD11DB441CBB250F0020796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD11DB451CBB250F0020796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD11DB471CBB250F0020796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "linking to get hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD11DB481CBB250F0020796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "linking to get hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD11DB4A1CBB250F0020796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "linking to get hubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linking to get hub.app/linking to get hub";
+			};
+			name = Debug;
+		};
+		CD11DB4B1CBB250F0020796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "linking to get hubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/linking to get hub.app/linking to get hub";
+			};
+			name = Release;
+		};
+		CD11DB4D1CBB250F0020796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "linking to get hubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "linking to get hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD11DB4E1CBB250F0020796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "linking to get hubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RR.linking-to-get-hubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "linking to get hub";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD11DB191CBB250F0020796A /* Build configuration list for PBXProject "linking to get hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11DB441CBB250F0020796A /* Debug */,
+				CD11DB451CBB250F0020796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD11DB461CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11DB471CBB250F0020796A /* Debug */,
+				CD11DB481CBB250F0020796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD11DB491CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11DB4A1CBB250F0020796A /* Debug */,
+				CD11DB4B1CBB250F0020796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD11DB4C1CBB250F0020796A /* Build configuration list for PBXNativeTarget "linking to get hubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD11DB4D1CBB250F0020796A /* Debug */,
+				CD11DB4E1CBB250F0020796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD11DB161CBB250F0020796A /* Project object */;
+}
